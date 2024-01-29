@@ -4,7 +4,7 @@ import os
 import csv
 
 # Define the folder containing CSV files
-folder_path = "/home/cdac/data"
+folder_path = "/home/data"
 
 # Get a list of all CSV files in the folder
 csv_files = [file for file in os.listdir(folder_path) if file.endswith('.csv')]
