@@ -1,6 +1,6 @@
 #TCL CODE FOR READING A MULTIPLE FILES FROM LOCAL DIRECTORY
 # Define the folder containing CSV files
-set folder_path "/home/cdac/data"
+set folder_path "/home/data"
 
 # Get a list of all CSV files in the folder
 set csv_files [glob -nocomplain "${folder_path}/*.csv"]
