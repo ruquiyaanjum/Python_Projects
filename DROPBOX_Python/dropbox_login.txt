@@ -1,0 +1,13 @@
+DROPBOX login on net
+1) DROPBOX login with mail id.
+2) https://www.dropbox.com/developers/
+      1) create apps
+      2) choose an API -- scoped access
+      3) choose the type of access you need -- full dropbox access to all files and folders in a user dropbox
+      4) Name -- dropbox33 -- create app
+      5) permission type -- scoped App
+      6) {files.metadata.write
+      7) files.metadata.read
+      8) files.content.write
+      9) files.content.read} -- submit
+     10) generate access token (copy that).
