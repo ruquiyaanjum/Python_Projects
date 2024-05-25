@@ -1,0 +1,21 @@
+2024-05-25 08:27:25,912 INFO werkzeug MainThread : [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2024-05-25 08:27:25,912 INFO werkzeug MainThread : [33mPress CTRL+C to quit[0m
+2024-05-25 08:27:25,916 INFO werkzeug MainThread :  * Restarting with stat
+2024-05-25 08:27:26,614 WARNING werkzeug MainThread :  * Debugger is active!
+2024-05-25 08:27:26,616 INFO werkzeug MainThread :  * Debugger PIN: 685-773-196
+2024-05-25 08:28:11,758 INFO app Thread-4 (process_request_thread) : Rendering index page
+2024-05-25 08:28:11,763 INFO werkzeug Thread-4 (process_request_thread) : 127.0.0.1 - - [25/May/2024 08:28:11] "GET / HTTP/1.1" 200 -
+2024-05-25 08:28:19,854 INFO app Thread-6 (process_request_thread) : Search initiated for keyword: iphone12
+2024-05-25 08:28:20,105 INFO app Thread-6 (process_request_thread) : Connected to MongoDB
+2024-05-25 08:28:22,675 INFO app Thread-6 (process_request_thread) : Fetched and parsed Flipkart search page
+2024-05-25 08:28:22,688 INFO app Thread-6 (process_request_thread) : Extracted product links
+2024-05-25 08:28:22,691 INFO app Thread-6 (process_request_thread) : Product link constructed: https://www.flipkart.com/apple-iphone-12-blue-128-gb/p/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG&lid=LSTMOBFWBYZKPTZF9VGHUA0UC&marketplace=FLIPKART&q=iphone12&store=tyy%2F4io&srno=s_1_3&otracker=search&fm=organic&iid=fceb5fa0-f356-4d0a-aecc-dfb9f8d76d53.MOBFWBYZKPTZF9VG.SEARCH&ppt=None&ppn=None&ssid=asgiyn6fr40000001716650892467&qH=ad588135f239b88b
+2024-05-25 08:28:23,487 INFO app Thread-6 (process_request_thread) : Fetched and parsed product details page
+2024-05-25 08:28:23,495 INFO app Thread-6 (process_request_thread) : Last link extracted: /apple-iphone-12-blue-128-gb/product-reviews/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG&lid=LSTMOBFWBYZKPTZF9VGHUA0UC&marketplace=FLIPKART
+2024-05-25 08:28:23,496 INFO app Thread-6 (process_request_thread) : Full product link constructed: https://www.flipkart.com/apple-iphone-12-blue-128-gb/product-reviews/itm02853ae92e90a?pid=MOBFWBYZKPTZF9VG&lid=LSTMOBFWBYZKPTZF9VGHUA0UC&marketplace=FLIPKART
+2024-05-25 08:28:24,111 INFO app Thread-6 (process_request_thread) : Fetched and parsed final product details page
+2024-05-25 08:28:24,114 INFO app Thread-6 (process_request_thread) : Collected results from comment boxes
+2024-05-25 08:28:24,549 INFO app Thread-6 (process_request_thread) : Inserted results into MongoDB
+2024-05-25 08:28:24,550 INFO app Thread-6 (process_request_thread) : Wrote results to CSV file: iphone12_reviews.csv
+2024-05-25 08:28:24,554 INFO werkzeug Thread-6 (process_request_thread) : 127.0.0.1 - - [25/May/2024 08:28:24] "POST /search HTTP/1.1" 200 -
